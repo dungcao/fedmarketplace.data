@@ -1,0 +1,8 @@
+{ 
+    "data_source_id": "ds008",
+    "model_id": "C001_M01_Fraud",
+    "component_id": "",
+    "machine_profile_ref": "http://...",
+    "monitor_interval": 10,
+    "fed_server": "[::]:8080"
+}
