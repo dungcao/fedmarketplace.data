@@ -4,5 +4,5 @@
     "component_id": "",
     "machine_profile_ref": "http://...",
     "monitor_interval": 10,
-    "fed_server": "[::]:8080"
+    "fed_server": "192.168.10.234:8080"
 }
