@@ -4,5 +4,20 @@
     "component_id": "",
     "machine_profile_ref": "http://...",
     "monitor_interval": 10,
-    "fed_server": "[::]:8080"
+    "model_conf":{
+        "module_name": "model_tf",
+        "function_map":{
+            "train": "fit",
+            "evaluate": "evaluate",
+            "set_weights": "set_weights",
+            "get_weights": "get_weights"
+        },
+        "train_hyper_param":{
+            "epochs": 10,
+            "batch_size": 32
+        },
+        "evaluate_hyper_param":{
+            "batch_size": 32
+        }
+    }
 }
